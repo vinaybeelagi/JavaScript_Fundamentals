@@ -9,3 +9,8 @@
 const myPlanetName = "Earth";
 let currentUserName = "devid";
 
+// task-Uppercase const?
+const BIRTHDAY = '04.04.1998'; 
+
+const age = someCode(BIRTHDAY);
+
