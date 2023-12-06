@@ -105,10 +105,13 @@
 // let result= (a + b < 4) ? "below":"over";
 
 // task-Rewrite 'if..else' into '?'
-let message = (login == 'Employee') ? 'Hello' :
-              (login == 'Director') ? 'Greetings' :
-              (login == '') ? 'No login' : '';
-alert(message);
+// let message = (login == 'Employee') ? 'Hello' :
+//               (login == 'Director') ? 'Greetings' :
+//               (login == '') ? 'No login' : '';
+// alert(message);
+
+// task-logical-operators:What's the result of OR?
+alert( null || 2 || undefined ); //2
 
 
 
