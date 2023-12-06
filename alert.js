@@ -67,18 +67,31 @@
 // alert(a+b); 
 
 // task-comparison
-5 > 4 //true
-"apple" > "pineapple" // false
-"2" > "12" //true
-undefined == null // true
-undefined === null // false
-null == "\n0\n" // false
-null === +"\n0\n" //false
+// 5 > 4 //true
+// "apple" > "pineapple" // false
+// "2" > "12" //true
+// undefined == null // true
+// undefined === null // false
+// null == "\n0\n" // false
+// null === +"\n0\n" //false
 
-//task-Conditional branching: if, '?'-if (a string with zero)
-if ("0") {
-    alert( 'Hello' );
-  } //yes
+// //task-Conditional branching: if, '?'-if (a string with zero)
+// if ("0") {
+//     alert( 'Hello' );
+//   } //yes
+
+//   task-The name of JavaScript
+let question = prompt("What is the “official” name of JavaScript?","");
+if (question == "ECMAscript"){
+    alert("Right")
+}
+else{
+    alert("You don't know? ECMAScript!");
+}
+
+
+
+
 
 
 
