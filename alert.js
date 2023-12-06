@@ -116,6 +116,8 @@
 //task- What's the result of OR'ed alerts?
 alert( alert(1) || 2 || alert(3) ); //1 ,then 2
 
+//task-The result of OR AND OR
+alert( null || 2 && 3 || 4 ); //3
 
 
 
