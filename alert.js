@@ -122,6 +122,11 @@ alert( null || 2 && 3 || 4 ); //3
 //task-Check the range between
 if (age>=14 && age<=90);
 
+// task-Check the range outside
+if (!(age>=14 && age<=90))  //1st o/p
+if (age<14 && age>90)  //2nd o/p
+
+
 
 
 
