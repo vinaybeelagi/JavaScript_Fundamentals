@@ -101,8 +101,14 @@
 //     alert(0);
 // }
 
-// task- Rewrite 'if' into '?'
-let result= (a + b < 4) ? "below":"over";
+// // task- Rewrite 'if' into '?'
+// let result= (a + b < 4) ? "below":"over";
+
+// task-Rewrite 'if..else' into '?'
+let message = (login == 'Employee') ? 'Hello' :
+              (login == 'Director') ? 'Greetings' :
+              (login == '') ? 'No login' : '';
+alert(message);
 
 
 
