@@ -34,5 +34,12 @@ let c = ++a; // 2
 let d = b++; // 1
 // output : a=2 b=2 c=2 d=1
 
+// task-Assignment result
+let a = 2;
+
+let x = 1 + (a *= 2);
+
+// o/p: a=4 x=5
+
 
 
