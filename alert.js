@@ -56,16 +56,24 @@
 // undefined + 1 //NaN
 // " \t \n" - 2 // NaN
 
-// Fix the addition
-let a = prompt("First number?", 1);
-let b = prompt("Second number?", 2);
+// // Fix the addition
+// let a = prompt("First number?", 1);
+// let b = prompt("Second number?", 2);
 
-alert(a + b); // 12
-// After fix:
-let a = +prompt("First number?", 1);
-let b = +prompt("Second number?",2);
-alert(a+b); 
+// alert(a + b); // 12
+// // After fix:
+// let a = +prompt("First number?", 1);
+// let b = +prompt("Second number?",2);
+// alert(a+b); 
 
+// task-comparison
+5 > 4 //true
+"apple" > "pineapple" // false
+"2" > "12" //true
+undefined == null // true
+undefined === null // false
+null == "\n0\n" // false
+null === +"\n0\n" //false
 
 
 
