@@ -75,6 +75,11 @@ undefined === null // false
 null == "\n0\n" // false
 null === +"\n0\n" //false
 
+//task-Conditional branching: if, '?'-if (a string with zero)
+if ("0") {
+    alert( 'Hello' );
+  } //yes
+
 
 
 
