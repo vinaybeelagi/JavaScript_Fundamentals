@@ -119,6 +119,9 @@ alert( alert(1) || 2 || alert(3) ); //1 ,then 2
 //task-The result of OR AND OR
 alert( null || 2 && 3 || 4 ); //3
 
+//task-Check the range between
+if (age>=14 && age<=90);
+
 
 
 
