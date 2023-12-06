@@ -80,14 +80,27 @@
 //     alert( 'Hello' );
 //   } //yes
 
-//   task-The name of JavaScript
-let question = prompt("What is the “official” name of JavaScript?","");
-if (question == "ECMAscript"){
-    alert("Right")
+// //   task-The name of JavaScript
+// let question = prompt("What is the “official” name of JavaScript?","");
+// if (question == "ECMAscript"){
+//     alert("Right")
+// }
+// else{
+//     alert("You don't know? ECMAScript!");
+// }
+
+// task-Show the sign
+let num1 = prompt("type a number","0");
+if (num1>0){
+    alert(1);
 }
-else{
-    alert("You don't know? ECMAScript!");
+else if (num1<0){
+alert(-1);
 }
+else {
+    alert(0);
+}
+
 
 
 
