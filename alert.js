@@ -124,7 +124,36 @@ if (age>=14 && age<=90);
 
 // task-Check the range outside
 if (!(age>=14 && age<=90))  //1st o/p
-if (age<14 && age>90)  //2nd o/p
+if (age<14 && age>90)  //2nd o/
+if (-1 || 0) alert( 'first' );
+if (-1 && 0) alert( 'second' );
+if (null || -1 && 1) alert( 'third' );
+//The code will excute'first'& 'third'
+
+//Check the login
+let userName = prompt("Who's there?", '');
+
+if (userName === 'Admin') {
+
+  let pass = prompt('Password?', '');
+
+  if (pass === 'TheMaster') {
+    alert( 'Welcome!' );
+  } else if (pass === '' || pass === null) {
+    alert( 'Canceled' );
+  } else {
+    alert( 'Wrong password' );
+  }
+
+} else if (userName === '' || userName === null) {
+  alert( 'Canceled' );
+} else {
+  alert( "I don't know you" );
+}
+
+
+
+
 
 
 
