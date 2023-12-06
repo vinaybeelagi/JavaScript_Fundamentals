@@ -111,8 +111,10 @@
 // alert(message);
 
 // task-logical-operators:What's the result of OR?
-alert( null || 2 || undefined ); //2
+// alert( null || 2 || undefined ); //2
 
+//task- What's the result of OR'ed alerts?
+alert( alert(1) || 2 || alert(3) ); //1 ,then 2
 
 
 
