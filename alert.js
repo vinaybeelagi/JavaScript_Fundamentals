@@ -24,7 +24,15 @@
 // alert( `hello ${name}` ); // hello Ilya
 
 //task- Interaction: alert, prompt, confirm
-let name = prompt("what is your name?", "")
-alert(name);
+// let name = prompt("what is your name?", "")
+// alert(name);
+
+// task-operators-The postfix and prefix forms
+let a = 1, b = 1;
+
+let c = ++a; // 2
+let d = b++; // 1
+// output : a=2 b=2 c=2 d=1
+
 
 
