@@ -113,43 +113,45 @@
 // task-logical-operators:What's the result of OR?
 // alert( null || 2 || undefined ); //2
 
-//task- What's the result of OR'ed alerts?
-alert( alert(1) || 2 || alert(3) ); //1 ,then 2
+// //task- What's the result of OR'ed alerts?
+// alert( alert(1) || 2 || alert(3) ); //1 ,then 2
 
-//task-The result of OR AND OR
-alert( null || 2 && 3 || 4 ); //3
+// //task-The result of OR AND OR
+// alert( null || 2 && 3 || 4 ); //3
 
-//task-Check the range between
-if (age>=14 && age<=90);
+// //task-Check the range between
+// if (age>=14 && age<=90);
 
-// task-Check the range outside
-if (!(age>=14 && age<=90))  //1st o/p
-if (age<14 && age>90)  //2nd o/
-if (-1 || 0) alert( 'first' );
-if (-1 && 0) alert( 'second' );
-if (null || -1 && 1) alert( 'third' );
-//The code will excute'first'& 'third'
+// // task-Check the range outside
+// if (!(age>=14 && age<=90))  //1st o/p
+// if (age<14 && age>90)  //2nd o/
+// if (-1 || 0) alert( 'first' );
+// if (-1 && 0) alert( 'second' );
+// if (null || -1 && 1) alert( 'third' );
+// //The code will excute'first'& 'third'
 
-//Check the login
-let userName = prompt("Who's there?", '');
+// //Check the login
+// let userName = prompt("Who's there?", '');
+// if (userName === 'Admin') {
+//   let pass = prompt('Password?', '');
+//   if (pass === 'TheMaster') {
+//     alert( 'Welcome!' );
+//   } else if (pass === '' || pass === null) {
+//     alert( 'Canceled' );
+//   } else {
+//     alert( 'Wrong password' );
+//   }
+// } else if (userName === '' || userName === null) {
+//   alert( 'Canceled' );
+// } else {
+//   alert( "I don't know you" );
+// }
 
-if (userName === 'Admin') {
-
-  let pass = prompt('Password?', '');
-
-  if (pass === 'TheMaster') {
-    alert( 'Welcome!' );
-  } else if (pass === '' || pass === null) {
-    alert( 'Canceled' );
-  } else {
-    alert( 'Wrong password' );
-  }
-
-} else if (userName === '' || userName === null) {
-  alert( 'Canceled' );
-} else {
-  alert( "I don't know you" );
-}
+// task- loops: while for-Last loop value
+let i=3;
+while(i){
+  alert(i--)
+}; // lastvalue:1
 
 
 
