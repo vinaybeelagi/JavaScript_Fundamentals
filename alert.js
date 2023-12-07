@@ -154,12 +154,15 @@
 // }; // lastvalue:1
 
 //task -Which values does the while loop show?
-let i = 0;
-while(++i<5) alert(i);  //ans:1 to 4
+// let i = 0;
+// while(++i<5) alert(i);  //ans:1 to 4
 
-let x = 0;
-while(x++<5) alert(x); // ans: 0 to 5
+// let x = 0;
+// while(x++<5) alert(x); // ans: 0 to 5
 
+// task - Which values get shown by the "for" loop?
+for (let i=0;i<5;i++) alert(i); //0,1,2,3,4
+for (let j=0;j<5;++j) alert(j); //0,1,2,3,4
 
 
 
