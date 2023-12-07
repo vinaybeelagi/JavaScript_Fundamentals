@@ -148,17 +148,17 @@
 // }
 
 // task- loops: while for-Last loop value
-let i=3;
-while(i){
-  alert(i--)
-}; // lastvalue:1
+// let i=3;
+// while(i){
+//   alert(i--)
+// }; // lastvalue:1
 
 //task -Which values does the while loop show?
 let i = 0;
 while(++i<5) alert(i);  //ans:1 to 4
 
-let i = 0;
-while(i++<5) alert(i); // ans: 0 to 5
+let x = 0;
+while(x++<5) alert(x); // ans: 0 to 5
 
 
 
