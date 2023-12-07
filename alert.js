@@ -153,6 +153,13 @@ while(i){
   alert(i--)
 }; // lastvalue:1
 
+//task -Which values does the while loop show?
+let i = 0;
+while(++i<5) alert(i);  //ans:1 to 4
+
+let i = 0;
+while(i++<5) alert(i); // ans: 0 to 5
+
 
 
 
