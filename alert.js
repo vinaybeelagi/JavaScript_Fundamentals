@@ -161,8 +161,15 @@
 // while(x++<5) alert(x); // ans: 0 to 5
 
 // task - Which values get shown by the "for" loop?
-for (let i=0;i<5;i++) alert(i); //0,1,2,3,4
-for (let j=0;j<5;++j) alert(j); //0,1,2,3,4
+// for (let i=0;i<5;i++) alert(i); //0,1,2,3,4
+// for (let j=0;j<5;++j) alert(j); //0,1,2,3,4
+
+// task-Output even numbers in the loop
+for (let i = 2; i <= 10; i++) {
+  if (i % 2 == 0) {
+    alert( i );
+  }
+}
 
 
 
