@@ -27,3 +27,12 @@ function checkAge(age){
 function checkAge(age) {
     return (age > 18) || confirm('Did parents allow you?');
   }
+
+// task- Function min(a, b)
+function min(a, b) {
+    if (a < b) {
+      return a;
+    } else {
+      return b;
+    }
+  }
