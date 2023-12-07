@@ -165,12 +165,18 @@
 // for (let j=0;j<5;++j) alert(j); //0,1,2,3,4
 
 // task-Output even numbers in the loop
-for (let i = 2; i <= 10; i++) {
-  if (i % 2 == 0) {
-    alert( i );
-  }
-}
+// for (let i = 2; i <= 10; i++) {
+//   if (i % 2 == 0) {
+//     alert( i );
+//   }
+// }
 
+// Replace "for" with "while"
+let i=0;
+while(i<3){
+  alert(`number ${i}!`)
+  i++
+}
 
 
 
