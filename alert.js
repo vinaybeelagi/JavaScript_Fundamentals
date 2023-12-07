@@ -178,15 +178,26 @@
 // }while(num<=100 && num);
 
 //task-Output prime numbers
-let n = 10;
-for (let i = 2; i <= n; i++) { 
-nextPrime:
-  for (let j = 2; j < i; j++) {
-    if (i % j == 0) continue nextPrime;
-  } 
-  alert( i );
-}
+// let n = 10;
+// for (let i = 2; i <= n; i++) { 
+// nextPrime:
+//   for (let j = 2; j < i; j++) {
+//     if (i % j == 0) continue nextPrime;
+//   } 
+//   alert( i );
+// }
 
+// task-switch,Rewrite the "switch" into an "if"
+let browser = prompt("Enter browser name","")
+if (browser == 'Edge'){
+  alert( "You've got the Edge!" );
+}
+else if (browser=='chrome'||browser=='Firefox'||browser=='safari'||browser=='opera'){
+  alert( 'Okay we support these browsers too' );
+}
+  else { 
+    alert('we hope that this page looks ok!')
+  }
 
 
 
